@@ -20,6 +20,8 @@ In this workshop, we will cover the following:
 7. ![alt text](/images/Screen6.png)
 8. ![alt text](/images/Screen7.png)
 
+***
+
  ## Activity 1: What is programming?
 Programming is when you write out instructions and then give them to a machine.
 The machine then knows what to do based on what you’ve written.
@@ -48,14 +50,20 @@ Works between mass storage and CPU delivering immediate information between the 
  #### ROM:
 Includes all of the info you don’t want to ever delete from the computer. (ie: how to start the computer).
 
+***
+
  ## Activity 2: What is an Arduino?
 
 Arduinos are used for building electronic projects. An Arduino consists of a physical programmable circuit board (microcontroller) and a piece of software that runs on your computer.
 You write the code on your computer and upload it onto the Arduino which can then interact with many things like: TVs, cameras, buttons,  speakers, phones, lights and much more...
 
+***
+
  ## Activity 3: What's the Difference between a Laptop and an Arduino?
 
  Computers are pretty limited to the types inputs receive and to how they can output the code. Arduinos are much more flexible.
+
+***
 
  ## Activity 4: Basic Programming Concepts
 
@@ -104,7 +112,7 @@ You write the code on your computer and upload it onto the Arduino which can the
  These are like lists with a way of identifying what item is in which position. These positions are referred to as the ‘index’ & the first position is always 0.
 
  var amazingProgrammers: [“Ada Lovelace”, “Grace Hopper”, “Jean Bartik”, “Mary Jackson”, “YOU!”]
-                index:          0               1               2               3           4
+              - index:          0               1               2               3           4
 
  #### Compiling:
  Takes the code that we wrote and turns it into a language that the computer can understand.
@@ -115,7 +123,9 @@ You write the code on your computer and upload it onto the Arduino which can the
  #### Functions:
  Sort of like an include but are specific to your project. They are blocks of code that can take in some information and often ‘do something’ like give/return a result.
 
- ## Activity 4: Getting Started with Programming Arduino
+***
+
+ ## Activity 5: Getting Started with Programming Arduino
 
  ### Setup:
  ![alt text](/images/Arduino1.png)
@@ -140,37 +150,40 @@ You write the code on your computer and upload it onto the Arduino which can the
 
  #### Extras:
 
- Fill background: void fillScreen(color);
+ **Fill background:** void fillScreen(color);
 
- Colors:
-  ILI9341_BLACK
-  ILI9341_WHITE
-  ILI9341_PURPLE
-  ILI9341_BLUE
-  ILI9341_GREEN
-  ILI9341_ORANGE
-  ILI9341_YELLOW
-  ILI9341_RED
-  ILI9341_PINK
-  ILI9341_NAVY
-  ILI9341_DARKGREEN
-  ILI9341_DARKCYAN
-  ILI9341_MAROON
-  ILI9341_OLIVE
-  ILI9341_LIGHTGREY
-  ILI9341_DARKGREY
-  ILI9341_CYAN
-  ILI9341_MAGENTA
-  ILI9341_GREENYELLOW
+ **Colors:**
+  - ILI9341_BLACK
+  - ILI9341_WHITE
+  - ILI9341_PURPLE
+  - ILI9341_BLUE
+  - ILI9341_GREEN
+  - ILI9341_ORANGE
+  - ILI9341_YELLOW
+  - ILI9341_RED
+  - ILI9341_PINK
+  - ILI9341_NAVY
+  - ILI9341_DARKGREEN
+  - ILI9341_DARKCYAN
+  - ILI9341_MAROON
+  - ILI9341_OLIVE
+  - ILI9341_LIGHTGREY
+  - ILI9341_DARKGREY
+  - ILI9341_CYAN
+  - ILI9341_MAGENTA
+  - ILI9341_GREENYELLOW
 
- Using the touchscreen:
+ **Using the touchscreen:**
+
  if (ts.touched()) {
    blink(robotColour);
  }
 
  > ts is a library that we included to be able to use the `touched` method.
 
- ## Activity 5: Get Creative with Arduino
+***
+
+ ## Activity 6: Get Creative with Arduino
 
  You have been shown how to program an Arduino using different shapes and touch. Now, let's get creative and crazy about creating your very own robot!!!
  If you need a frame of reference why not check out the code for our Code Like a Girl Robot:
@@ -340,22 +353,26 @@ void drawLoveHeart(uint16_t colour) {
 }
 ```
 
+***
+
  ## Wrap Up
 
- - We've covered a lot today! As a refresher have a peak at the **Learning Objectives** up top.
+ - We've covered a lot today! As a refresher have a peak at the **[Learning Objectives](#learning-objectives)** up top.
  - What are the various high level parts of a computer that you can remember?
  - Would you be able to explain to a friend how Arduinos differ from Laptops and why they're so awesome?
  - See if you can list of all the different programming concepts we learned today. There were about 7.
+
+***
 
  ## What's Next?
 
  - If you're interested in learning more about the Arduino, check out their [website](https://www.arduino.cc/). It's full of great info. What we've done today is only the tip of the iceberg. They are capable of so many cool things - really only limited to you and what amazing stuff you can imagine and create!
 
- - You could also check out the [Adafruit wbsite](https://learn.adafruit.com/) for some inspiration.
+ - You could also check out the [Adafruit website](https://learn.adafruit.com/) for some inspiration.
 
  - If the coding side of things sparked an interest in learning more, there are many free online tools for learning different languages. Here are few to get your started:
- [Codeschool](https://www.codeschool.com/)
- [CodeAcademy](https://www.codecademy.com/)
- [A new learn to code app from Google](https://9to5google.com/2018/04/19/google-area-120-grasshopper/)
- 
+   - [Codeschool](https://www.codeschool.com/)
+   - [CodeAcademy](https://www.codecademy.com/)
+   - [A new learn to code app from Google](https://9to5google.com/2018/04/19/google-area-120-grasshopper/)
+
  - Code Like a Girl always has great workshops running. [Keep in touch](https://codelikeagirl.org/events-workshops/) and we can send you the newsletter so you'll be one of the first to know about them!
