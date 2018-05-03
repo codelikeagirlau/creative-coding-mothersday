@@ -69,46 +69,46 @@ You write the code on your computer and upload it onto the Arduino which can the
 
  #### Variables:
  A variable is essentially a container that holds some kind of information.\
- var favouriteColour = “green”\
- var somePlanets = [“mercury”, “venus”, “earth”, “mars”]\
+ ```var favouriteColour = “green”```\
+ ```var somePlanets = [“mercury”, “venus”, “earth”, “mars”]```
 
  #### Strings:
  Used to represent text/words. They are always captured in quotes.\
- "Code Like a Girl"\
- “I love peanut butter and jam sandwiches.”\
- "Elephant"\
+ ```"Code Like a Girl"```\
+ ```“I love peanut butter and jam sandwiches.”```\
+ ```"Elephant"```
 
  #### Control Structures:
  These are blocks of code that make decisions based on variables or other conditions.
 
  ##### IF statement:
  ```
- if (some condition is true) {
-   then do this
- }
- ```
+if (some condition is true) {
+ then do this
+}
 ```
-  var day = “monday”
-  if (day == “monday”) {
-      print “It’s the start of the week!”
-  }
+```
+var day = “monday”
+if (day == “monday”) {
+    print “It’s the start of the week!”
+}
 ```
 
  ##### IF/ELSE statement:
  ```
- if (condition is true) {
-    then do this
- } else {
-    do this instead
- }
+if (condition is true) {
+  then do this
+} else {
+  do this instead
+}
 ```
 ```
- var day = “friday”
-  if (day == “monday”) {
-      print “It’s the start of the week!”
-  } else {
-      print “At least it’s not monday!”
-  }
+var day = “friday”
+if (day == “monday”) {
+    print “It’s the start of the week!”
+} else {
+    print “At least it’s not monday!”
+}
 ```
  #### Data Structures:
  Store and organise your information/data so that the computer can easily access it.
@@ -116,9 +116,10 @@ You write the code on your computer and upload it onto the Arduino which can the
  ##### Arrays:
  These are like lists with a way of identifying what item is in which position. These positions are referred to as the ‘index’ & the first position is always 0.
 
+```
  var amazingProgrammers: [“Ada Lovelace”, “Grace Hopper”, “Jean Bartik”, “Mary Jackson”, “YOU!”]
-              - index:          0               1               2               3           4
-
+                index:          0               1               2               3           4
+```
  #### Compiling:
  Takes the code that we wrote and turns it into a language that the computer can understand.
 
@@ -199,7 +200,7 @@ You write the code on your computer and upload it onto the Arduino which can the
 
  ## Activity 6: Get Creative with Arduino
 
- You have been shown how to program an Arduino using different shapes and touch. Now, let's get creative and crazy about creating your very own robot!!!
+ You have been shown how to program an Arduino using different shapes and touch. Now, let's get creative and crazy and create your very own robot!!!
  If you need a frame of reference why not check out the code for our Code Like a Girl Robot:
 
   ```#include <Adafruit_GFX.h>
