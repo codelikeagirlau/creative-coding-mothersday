@@ -5,8 +5,8 @@ A Creative Introduction to Coding - Mother's Day
 
 In this workshop, we will cover the following:
 
- - We'll talk about what programming is and cover some essentials concepts including variables, loops, data structures (arrays), ‘if’ statements and functions.
- - Learn the what an Arduino is and how it differs from a laptop computer.
+ - We'll talk about what programming is and cover some essential concepts including variables, loops, data structures (arrays), ‘if’ statements and functions.
+ - Learn what an Arduino is and how it differs from a laptop computer.
  - Set up and programming of the Arduino, which will include basic functions to draw shapes, display text and work with touch.
 
  ## Setting Up
