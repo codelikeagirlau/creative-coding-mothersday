@@ -68,43 +68,48 @@ You write the code on your computer and upload it onto the Arduino which can the
  ## Activity 4: Basic Programming Concepts
 
  #### Variables:
- A variable is essentially a container that holds some kind of information.
- var favouriteColour = “green”
- var somePlanets = [“mercury”, “venus”, “earth”, “mars”]
+ A variable is essentially a container that holds some kind of information.\
+ var favouriteColour = “green”\
+ var somePlanets = [“mercury”, “venus”, “earth”, “mars”]\
 
  #### Strings:
- Used to represent text/words. They are always captured in quotes.
- "Code Like a Girl"
- “I love peanut butter and jam sandwiches.”
- "Elephant"
+ Used to represent text/words. They are always captured in quotes.\
+ "Code Like a Girl"\
+ “I love peanut butter and jam sandwiches.”\
+ "Elephant"\
 
  #### Control Structures:
  These are blocks of code that make decisions based on variables or other conditions.
 
  ##### IF statement:
+ ```
  if (some condition is true) {
    then do this
  }
-
+ ```
+```
   var day = “monday”
   if (day == “monday”) {
       print “It’s the start of the week!”
   }
+```
 
  ##### IF/ELSE statement:
+ ```
  if (condition is true) {
     then do this
  } else {
     do this instead
  }
-
+```
+```
  var day = “friday”
   if (day == “monday”) {
       print “It’s the start of the week!”
   } else {
       print “At least it’s not monday!”
   }
-
+```
  #### Data Structures:
  Store and organise your information/data so that the computer can easily access it.
 
@@ -134,23 +139,31 @@ You write the code on your computer and upload it onto the Arduino which can the
  ### Shapes
 
  #### Lines
+ ```
  void drawLine(Xstart, Ystart, Xend, Yend, color);
+ ```
 
  #### Squares and rectangles
+ ```
  void drawRect(Xstart, Ystart, width, height, color);
  void fillRect(Xstart, Ystart, width, height, color);
+ ```
 
  #### Circles
+ ```
  void drawCircle(Xstart, Ystart, radius, color);
  void fillCircle(Xstart, Ystart, radius, color);
+ ```
 
  #### Triangles
+ ```
  void drawTriangle(X1, Y1, X2, Y2, X2, Y2, color);
  void fillTriangle(X1, Y1, X2, Y2, X2, Y2, color);
+ ```
 
  #### Extras:
 
- **Fill background:** void fillScreen(color);
+ **Fill background:** ```void fillScreen(color);```
 
  **Colors:**
   - ILI9341_BLACK
@@ -174,10 +187,11 @@ You write the code on your computer and upload it onto the Arduino which can the
   - ILI9341_GREENYELLOW
 
  **Using the touchscreen:**
-
+```
  if (ts.touched()) {
    blink(robotColour);
  }
+ ```
 
  > ts is a library that we included to be able to use the `touched` method.
 
