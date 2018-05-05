@@ -158,8 +158,8 @@ if (day == “monday”) {
 
  #### Triangles
  ```
- void drawTriangle(X1, Y1, X2, Y2, X2, Y2, color);
- void fillTriangle(X1, Y1, X2, Y2, X2, Y2, color);
+ void drawTriangle(X1, Y1, X2, Y2, X3, Y3, color);
+ void fillTriangle(X1, Y1, X2, Y2, X3, Y3, color);
  ```
 
  #### Extras:
